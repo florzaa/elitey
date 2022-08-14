@@ -1,6 +1,6 @@
 if game.PlaceId == 155615604 then
   -- Prison Life
-  loadstring(game:HttpGet("https://elitey.cf/m2z/gids/155615604.lua"), true)()
+  loadstring(game:HttpGet("https://elitey.cf/m2z/gids/155615604.lua", true))()
 else
   local Loader = Instance.new("ScreenGui")
   local Main = Instance.new("Frame")
